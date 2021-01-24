@@ -1,19 +1,5 @@
-Contains implementation for K cross Validaion
-Compares performance of Logistic Regression, SVC, Linear SVC on 2 data sets (Multiclass- Digits dataset and binary class - Boston50 & Boston70)
+Contains implementation for K cross Validaion, train-test-split without using sci-kit learn library functions
 
-*********************************************************************************************************************
-
-Steps to be followed to run
-
-*********************************************************************************************************************
-# step 1: Change directory to the location where .py files are located:
-import os
-os.chdir("/home/vuppa007/Downloads")
-
-#Step 2: Run run.py file. It calls the wrapper methods to evaluate q3 & q4.
-exec(open('run.py').read())
-
-********************************************************************************************************************
 
 Additional Information about wrapper calls and Main file:
 
@@ -34,6 +20,6 @@ The 2-class classification datasets from Boston50, Boston75, extracted from [Bos
 ## Objectives
 - Develop code for k-fold cross validation without using sci-kit learn. Report the error rates in each fold as well as the mean and standard devia-
 tion of error rates across folds for the three methods: LinearSVC, SVC, and LogisticRegression, applied to the three classification datasets: Boston50, Boston75, and Digits.
-- Develop code for my train test(method,X,y,π,k), which performs random splits on the data (X, y) so that π ∈ [0, 1] fraction of the data is used for training using method, rest is used for testing, and the process is repeated k times, after which the code returns the error rate for each such train-test split. Using my train test, with π = 0.75 and k = 10, report the mean and standard deviation of error rate for the three methods: LinearSVC, SVC, and LogisticRegression, applied to the three classification
+- Develop code for train-test-split, which performs random splits on the data (X, y) so that π ∈ [0, 1] fraction of the data is used for training using method, rest is used for testing, and the process is repeated k times, after which the code returns the error rate for each such train-test split. Using this function, report the mean and standard deviation of error rate for the three methods: LinearSVC, SVC, and LogisticRegression, applied to the three classification
 - Feature Engineering on Digits Dataset and report results for LinearSVC, SVC, and LogisticRegression
 
