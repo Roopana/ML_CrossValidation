@@ -1,3 +1,4 @@
+# Binary & Multi class classification
 ## Datasets 
 The 2-class classification datasets from Boston50, Boston75, extracted from [Boston Housing dataset](https://github.com/rupakc/UCI-Data-Analysis/tree/master/Boston Housing Dataset/Boston Housing) and the 10-class classification [dataset](http://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits) from Digits
 
